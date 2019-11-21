@@ -63,6 +63,8 @@ app.get('/apps', (req, res) => {
 })
 
 
-app.listen(8001, () => {
-  console.log('Server started on PORT 8001...')
-})
+// app.listen(8001, () => {
+//   console.log('Server started on PORT 8001...')
+// })
+
+module.exports = app
